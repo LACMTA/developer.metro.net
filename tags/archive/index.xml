@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archive on Metro Developer</title>
+    <link>/tags/archive/</link>
+    <description>Recent content in Archive on Metro Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>d&#43;air: data artist in residence</title>
+      <link>/implement/digital-art-residency/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/implement/digital-art-residency/</guid>
+      <description>Introduction Each piece can be placed on a continuum, with art on one end and data visualization on the other, and ranging between adjectives: ambiguous/concrete, personal/public, intuitive/objective, informational/emotional. No matter where the maps fall, their creators are communicating underlying verities—whether evidence-based truths or more pliant, relative “truths”—about life in an endlessly fascinating and dynamic metropolis.
+http://lab.culturalanalytics.info/2017/09/on-broadway-on-view-in-exhibition-you.html
+Data Artist-in-Residence Vision Metro posits that artists are well-positioned to synthesize diverse facts, goals, data and references, reveal new frames, connections and meaning and speak across “languages” as it applies to problem-solving, knowledge creation, and enhancing the user experience for Metro.</description>
+    </item>
+    
+  </channel>
+</rss>
