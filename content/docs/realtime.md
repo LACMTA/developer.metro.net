@@ -1,18 +1,19 @@
 +++
 type = "doc"
 author = "Douglas Goodwin"
+categories = ["real-time"]
 date = "2017-06-22"
-title = "Real-time Arrivals"
 description = "Real-time vehicle position delivered via a RESTful web service in XML, JSON, and JSONP."
 featured = ""
-featuredpath = ""
 featuredalt = ""
-categories = ["real-time"]
-linktitle = ""
+featuredpath = ""
 format = "Many"
 link = "#"
-+++
+linktitle = ""
+title = "Real-time Arrivals"
+type = "itemized"
 
++++
 ## Metro Nextrip API
 
 Metro’s Realtime Application Programming Interface (API) lives at http://api.metro.net/. It gives you access to the positions of Metro vehicles on their routes in real time.
@@ -32,4 +33,4 @@ This new section of the site is here to document the interface and give you some
 
 Try it out and let us know what you think. We hope you enjoy it!
 
--Metro Developer
+_-Metro Developer_
