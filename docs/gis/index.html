@@ -1,0 +1,1450 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "/"
+        },
+        "articleSection" : "docs",
+        "name" : "GIS",
+        "headline" : "GIS",
+        "description" : "Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals).",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-06-22 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2017-06-22 00:00:00 &#43;0000 UTC",
+        "url" : "/docs/gis/",
+        "wordCount" : "875",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>GIS</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.44" />
+        
+
+
+        
+            <meta name="author" content="Douglas Goodwin">
+        
+        
+            <meta name="description" content="Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals).">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GIS"/>
+<meta name="twitter:description" content="Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals)."/>
+<meta name="twitter:site" content="@metrolosangeles"/>
+
+        <meta property="og:title" content="GIS" />
+<meta property="og:description" content="Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/gis/" />
+
+
+
+<meta property="article:published_time" content="2017-06-22T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-06-22T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="GIS">
+<meta itemprop="description" content="Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals).">
+
+
+<meta itemprop="datePublished" content="2017-06-22T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-06-22T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="875">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">docs</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>New
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>about
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/docs/">
+                            <i class="fa fa-list">&nbsp;</i>docs
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/posts/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>posts
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>New
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>about
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/docs/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>docs
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>posts
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/posts/digital-art-residency/">d&#43;air: data artist in residence</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-07-19'>
+                                    July 19, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/digital-art-residency/" class="image featured">
+            <img src="/img/posts/lukefischbeck_com_metro_narratives_.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/posts/privacy-statement/">Privacy Policy</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2014-09-28'>
+                                    September 28, 2014</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/privacy-statement/" class="image featured">
+            <img src="/img/posts/termsandconditions.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/posts/goisforlovers/">(Hu)go Template Primer</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2014-04-02'>
+                                    April 2, 2014</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/goisforlovers/" class="image featured">
+            <img src="/img/posts/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/posts/hugoisforlovers/">Getting Started with Hugo</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2014-04-02'>
+                                    April 2, 2014</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/hugoisforlovers/" class="image featured">
+            <img src="/img/posts/pic01.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2014-03-10'>
+                                    March 10, 2014</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/migrate-from-jekyll/" class="image featured">
+            <img src="/img/posts/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /implement/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fdocs%2fgis%2f&amp;text=GIS&amp;via=metrolosangeles" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fdocs%2fgis%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fdocs%2fgis%2f&amp;title=GIS" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fdocs%2fgis%2f&amp;title=GIS" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Douglas%20Goodwin&amp;body=%2fdocs%2fgis%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/docs/gis/">GIS</a></h1>
+            
+        
+        
+            <p>Metro’s GIS data includes 2 types of line shapefile (Bus Lines and Rail Lines) and three types of point shapefile (Bus Stops, Rail Stations and Rail Portals).</p>
+        
+    </div>
+    <div class="meta">
+
+      <span class="author">Douglas Goodwin</span>
+      <span class="author">GIS</span>
+      
+        <a href="#" target="_blank"></a>
+      
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fdocs%2fgis%2f&amp;text=GIS&amp;via=metrolosangeles" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fdocs%2fgis%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fdocs%2fgis%2f&amp;title=GIS" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fdocs%2fgis%2f&amp;title=GIS" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Douglas%20Goodwin&amp;body=%2fdocs%2fgis%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+  <div id="content">
+    
+
+<h2 id="metro-bus-line-shapefiles">Metro Bus Line Shapefiles</h2>
+
+<p>The Metro Bus Line Zip File contains 5 shapefiles that cover all Metro Bus Lines. A shapefile is a set of 3 to 7 interrelated files that can be used with mapping (GIS) software. These technical files that have no other application; you must have GIS software to use them. The shapefiles are redrawn every six months, typically in June and December. We’ll try to post them within six weeks of changes.</p>
+
+<p>The 5 shapefiles each contain a group of Metro Bus Lines. The 5 groups are:</p>
+
+<ul>
+<li>LocalCBDmmyy: Metro Local Lines that go through Downtown Los Angeles (Lines 2 through 96).</li>
+<li>LocalNonCBDmmyy: Metro Local Lines that do not go through Downtown Los Angeles (Lines 102 through 292).</li>
+<li>LimExpmmyy: Metro Limited or Express Lines (Lines 344 through 577 and 788).</li>
+<li>ComCircmmyy: Metro Community Circulator Lines (Lines 603 through 687).</li>
+<li>RapidBRTmmyy: Metro Rapid Lines and the Orange Line (Lines 704 through 794, except Line 788, and Lines 901 through 910).</li>
+</ul>
+
+<p>(Note: “mmyy” stands for the month and year of the shakeup.)</p>
+
+<p>The bus line shapefiles are generated from basic operating schedules for all trunk lines. Branch lines and short-lines are subsets of these lines. Example: Only Limited Line 344 is listed under Lim&amp;Exp. The other Limited Routes (i.e., routes that skip stops) are branch lines that will be found under their parent trunk line (e.g., Limited Line 302 is a branch of Local Line 2).</p>
+
+<p>The attribute file (dbf) of any bus line shapefile has a column, “Var_Route” which identifies the Trunk Line. A trunk line may have many rows associated with this Line. Each of these represent a trip pattern that may be assigned to a bus.</p>
+
+<p>The attribute file also contains a column “Var_Descr” that further describes the trip pattern. A bus route that differs from the trunk line’s route (enough to be given its own Route number in the bus’ headsign) will be indicated in this column. In order to have a single bus line displayed on a map use your GIS software to highlight and/or export the trip patterns with that bus line’s name.</p>
+
+<h2 id="metro-bus-stop-shapefiles">Metro Bus Stop Shapefiles</h2>
+
+<p>Similar to the Metro Bus Line shapefiles, the Bus Stop shapefile is a set of interrelated files that can be used with GIS software.  Two Bus Stop shapefiles are available, each with the same content but organized differently. These shapefiles will be updated every shakeup in tandem with the Bus Line shapefiles.</p>
+
+<p>Bus Lines and Bus Stops are really separate systems on a map.  While the bus line shapefiles are snapped to the street centerline, the bus stops are the exact points where the stops occupy the sidewalk; they are necessarily offset from the lines.</p>
+
+<h2 id="metro-rail-line-shapefiles">Metro Rail Line Shapefiles</h2>
+
+<p>The Metro Rail Line shapefiles show the Route of Line (ROW) of each Rail Line.  These are not revised per shakeup because the ROW does not change.  The overall Rail Line zip file will be amended as new lines are added or existing lines are extended.</p>
+
+<h2 id="metro-rail-station-shapefiles">Metro Rail Station Shapefiles</h2>
+
+<p>These are point shapefiles where the measurement point is center-platform.</p>
+
+<h2 id="metro-rail-portal-shapefiles">Metro Rail Portal Shapefiles</h2>
+
+<p>These are the entrances to each rail station. More than one portal may be listed at a station: any portal more than 50 feet from another has its own row in the dataset and will appear as a separate point location when mapped.</p>
+
+<h1 id="gis-terminology">GIS Terminology</h1>
+
+<p>When you download the MetroBus zip archive on the download page it will unpack into a folder called Grouped Lines. This folder contains ESRI Shapefiles and supporting files.</p>
+
+<p>Shapefiles spatially describe geometries: points, polylines, and polygons. These shapes represent routes and stops. Each item may also have attributes that describe the items, such as the name or temperature.</p>
+
+<h3 id="shapefile-shape-index-format-shx">Shapefile shape index format (.shx)</h3>
+
+<p>Shape index format file is a spatial index file for geometries stored in the shapefile.</p>
+
+<h3 id="shapefile-attribute-format-dbf">Shapefile attribute format (.dbf)</h3>
+
+<p>Database file for holding non-geometric attribute data (e.g., integer and character fields).</p>
+
+<h3 id="shapefile-projection-format-prj">Shapefile projection format (.prj)</h3>
+
+<p>A text file containing coordinat system and projectiion information about the spatial information stored in the shapefile.</p>
+
+<h3 id="shapefile-spatial-index-format-sbn">Shapefile spatial index format (.sbn)</h3>
+
+<p>A binary spatial index file, which is used only by ESRI software.</p>
+
+<h3 id="shapefile-shape-format-shp-xml">Shapefile shape format (.shp.xml)</h3>
+
+<p>Metadata for the Metro Bus route geometries in an XML format.</p>
+
+<h3 id="shapefile-shape-format-shp">Shapefile shape format (.shp)</h3>
+
+<p>Shape format file contains the vector data for the Metro Bus route geometries.</p>
+
+<p>You may query the shapefile with a open-source program called ogrinfo. Run a little script like this:</p>
+
+<pre><code>#!/bin/bash
+for FILE in *.shp; do
+ogrinfo -geom=SUMMARY $FILE
+done
+</code></pre>
+
+<p>and you’ll get:</p>
+
+<pre><code>INFO: Open of `ComCirc1208.shp'
+using driver `ESRI Shapefile' successful.
+1: ComCirc1208 (3D Line String)
+INFO: Open of `Lim&amp;Exp1208.shp'
+using driver `ESRI Shapefile' successful.
+1: Lim&amp;Exp1208 (3D Line String)
+INFO: Open of `LocalCBD1208.shp'
+using driver `ESRI Shapefile' successful.
+1: LocalCBD1208 (3D Line String)
+INFO: Open of `LocalNonCBD1208.shp'
+using driver `ESRI Shapefile' successful.
+1: LocalNonCBD1208 (3D Line String)
+INFO: Open of `RapidO1208.shp'
+using driver `ESRI Shapefile' successful.
+1: RapidO1208 (3D Line String)
+
+# Feedback
+
+Please help us improve Metro’s GIS Data by submitting your suggestions and observations. All comments will be sent to Metro Operations – Service Planning &amp; Development for consideration.
+</code></pre>
+
+<p>Thanks for your interest in Los Angeles transit data. Be specific and give as much info as you can.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/gis'>gis</a></li>
+    
+</ul>
+
+  </footer>
+</article>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/main/logo.jpg" class="intro-circle" width="" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Metro Developer</h2>
+        <p>The website for technical individuals and entities who are using transportation and multi-modal data in interesting ways</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/LACMTA" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//flickr.com/photos/metrola" target="_blank" title="Flickr" class="fa fa-flickr"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/los-angeles-county-metropolitan-transportation-authority" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/losangelesmetro" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+  <li><a href="//reddit.com/user/MetroLosAngeles" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+  <li><a href="//youtube.com/losangelesmetro" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/metrolosangeles" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/metrolosangeles" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:customerrelations@metro.net" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/posts/digital-art-residency/">d&#43;air: data artist in residence</a>
+              </h3>
+              
+              <time class="published" datetime='2017-07-19'>
+                July 19, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/digital-art-residency/" class="image featured">
+            <img src="/img/posts/lukefischbeck_com_metro_narratives_.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/posts/privacy-statement/">Privacy Policy</a>
+              </h3>
+              
+              <time class="published" datetime='2014-09-28'>
+                September 28, 2014
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/privacy-statement/" class="image featured">
+            <img src="/img/posts/termsandconditions.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/posts/goisforlovers/">(Hu)go Template Primer</a>
+              </h3>
+              
+              <time class="published" datetime='2014-04-02'>
+                April 2, 2014
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/goisforlovers/" class="image featured">
+            <img src="/img/posts/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/posts/hugoisforlovers/">Getting Started with Hugo</a>
+              </h3>
+              
+              <time class="published" datetime='2014-04-02'>
+                April 2, 2014
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/hugoisforlovers/" class="image featured">
+            <img src="/img/posts/pic01.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+              </h3>
+              
+              <time class="published" datetime='2014-03-10'>
+                March 10, 2014
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/posts/migrate-from-jekyll/" class="image featured">
+            <img src="/img/posts/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /implement/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/hugo/">Hugo</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/legal/">legal</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/gtfs/">GTFS</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/go/">Go</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/jekyll/">Jekyll</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/metro-platform/">Metro platform</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/residencies/">Residencies</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/gis/">gis</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/metrics/">metrics</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/real-time/">real-time</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/schedules/">schedules</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/web-services/">web services</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Metro (the Los Angeles County Metropolitan Transportation Authority) is unique among the nation’s transportation agencies. We serve as transportation planner and coordinator, designer, builder and operator for one of the country’s largest, most populous counties. More than 9.6 million people – nearly one-third of California’s residents – live, work, and play within our 1,433-square-mile service area.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/LACMTA" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//flickr.com/photos/metrola" target="_blank" title="Flickr" class="fa fa-flickr"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/los-angeles-county-metropolitan-transportation-authority" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/losangelesmetro" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+  <li><a href="//reddit.com/user/MetroLosAngeles" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+  <li><a href="//youtube.com/losangelesmetro" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/metrolosangeles" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/metrolosangeles" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:customerrelations@metro.net" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2017
+        
+          Metro Developer
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Metro Developer</title>
+    <link>/docs/</link>
+    <description>Recent content in Docs on Metro Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GIS</title>
+      <link>/docs/gis/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/gis/</guid>
+      <description>Metro Bus Line Shapefiles The Metro Bus Line Zip File contains 5 shapefiles that cover all Metro Bus Lines. A shapefile is a set of 3 to 7 interrelated files that can be used with mapping (GIS) software. These technical files that have no other application; you must have GIS software to use them. The shapefiles are redrawn every six months, typically in June and December. We’ll try to post them within six weeks of changes.</description>
+    </item>
+    
+    <item>
+      <title>Legal</title>
+      <link>/docs/legal/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/legal/</guid>
+      <description>Terms and Conditions Thank you for registering to receive Metro’s (“Metro’s”) Developer website services (the “Services” as further defined below). Use of the Services is governed by these Terms and Conditions and the Web Services Developer Guidelines.
+By using the Services you (“You” or where applicable “Your”) agree to be bound by these Terms and Conditions and the Web Services Developer Guidelines that are hereby incorporated.
+Metro may at any time revise these Terms and Conditions without notice.</description>
+    </item>
+    
+    <item>
+      <title>Metrics &amp; Analytics</title>
+      <link>/docs/metrics/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/metrics/</guid>
+      <description> Metrics &amp;amp; Analytics </description>
+    </item>
+    
+    <item>
+      <title>Metro Web Services</title>
+      <link>/docs/services/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/services/</guid>
+      <description> Trip Planning, Vehicle Arrivals, and Service Alerts are blends of public Application Programming Interfaces (APIs). This section documents the services which together comprise the Metro Platform. </description>
+    </item>
+    
+    <item>
+      <title>Real-time Arrivals</title>
+      <link>/docs/realtime/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/realtime/</guid>
+      <description>Metro Nextrip API Metro’s Realtime Application Programming Interface (API) lives at http://api.metro.net/. It gives you access to the positions of Metro vehicles on their routes in real time.
+The Realtime API is a RESTful web service designed to serve bus location data gathered by our Advanced Transportation Management System (ATMS) and the new Nextrip prediction engine. This is the result of years of difficult work refining the information we collect from the GPS trackers on every bus.</description>
+    </item>
+    
+    <item>
+      <title>Schedules</title>
+      <link>/docs/schedules/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/schedules/</guid>
+      <description> Schedules </description>
+    </item>
+    
+  </channel>
+</rss>

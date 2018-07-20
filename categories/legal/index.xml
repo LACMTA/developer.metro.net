@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legal on Metro Developer</title>
+    <link>/categories/legal/</link>
+    <description>Recent content in Legal on Metro Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/legal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Legal</title>
+      <link>/docs/legal/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/legal/</guid>
+      <description>Terms and Conditions Thank you for registering to receive Metro’s (“Metro’s”) Developer website services (the “Services” as further defined below). Use of the Services is governed by these Terms and Conditions and the Web Services Developer Guidelines.
+By using the Services you (“You” or where applicable “Your”) agree to be bound by these Terms and Conditions and the Web Services Developer Guidelines that are hereby incorporated.
+Metro may at any time revise these Terms and Conditions without notice.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/posts/privacy-statement/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/privacy-statement/</guid>
+      <description>The Los Angeles County Metropolitan Transportation Authority (Metro) respects your privacy. The following describes our Privacy Policy in relation to the information you submit via Metro’s WordPress websites such as:  The Source: Transportation News &amp;amp; Views website address is: http://thesource.metro.net/ El Pasajero: Tu ruta directa a novedades de transporte website address is: http://elpasajero.metro.net/ Metro Annual Report website address is: http://annualreport.metro.net/ Measure M: Metro’s Plan to Transform Transportation website address is: http://theplan.</description>
+    </item>
+    
+  </channel>
+</rss>
