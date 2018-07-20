@@ -11,7 +11,6 @@ format = "Many"
 link = "#"
 linktitle = ""
 title = "Real-time Arrivals"
-type = "itemized"
 
 +++
 ## Metro Nextrip API
