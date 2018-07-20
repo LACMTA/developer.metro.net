@@ -4,17 +4,17 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- path: content/posts
+  label: Posts
+  create: all
+- path: content/docs
+  label: Docs
+  create: all
 - path: content
   label: Pages
   create: all
 - path: content/contact
   label: Contact
-  create: all
-- path: content/implement
-  label: Implement
-  create: all
-- path: content/learn
-  label: Learn
   create: all
 - path: content/about
   label: About
