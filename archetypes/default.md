@@ -4,7 +4,7 @@ categories = []
 description = ""
 linktitle = ""
 featured = ""
-featuredpath = ""
+featuredpath = "img"
 featuredalt = ""
 
 +++

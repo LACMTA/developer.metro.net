@@ -5,11 +5,11 @@ date = ""
 description = ""
 featured = ""
 featuredalt = ""
-featuredpath = ""
+featuredpath = "img/docs"
 link = ""
 linktitle = ""
 format = ""
 title = ""
-type = "itemized"
+type = "doc"
 
 +++

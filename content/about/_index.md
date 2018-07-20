@@ -1,6 +1,9 @@
 +++
 title = "About Metro"
 date = "2018-04-09"
+featured = "Ansaldobreda_A650.jpg"
+featuredalt = "Red Line, Union Station"
+featuredpath = "img/about"
 +++
 
 Metro (the Los Angeles County Metropolitan Transportation Authority) is unique among the nation’s transportation agencies. We serve as transportation planner and coordinator, designer, builder and operator for one of the country’s largest, most populous counties. More than 9.6 million people – nearly one-third of California’s residents – live, work, and play within our 1,433-square-mile service area.

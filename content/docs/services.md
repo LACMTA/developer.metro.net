@@ -1,5 +1,5 @@
 +++
-type = "itemized"
+type = "doc"
 author = "Douglas Goodwin"
 date = "2017-06-22"
 title = "Metro Web Services"

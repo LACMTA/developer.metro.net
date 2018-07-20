@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 paginate = 6
 disqusShortname = "metrodeveloper"
 googleAnalytics = ""
-pluralizeListTitles = true
+pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
 canonifyURLs = true
@@ -17,7 +17,7 @@ canonifyURLs = true
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Metro Developer"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/implement/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -117,31 +117,31 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
-  name = "About"
+  name = "about"
   url = "/about/"
   identifier = "fa fa-id-card-o"
   weight = 2
 
 [[menu.main]]
-  name = "Learn"
-  url = "/learn/"
+  name = "docs"
+  url = "/docs/"
   identifier = "fa fa-list"
   weight = 3
 
 [[menu.main]]
-  name = "Implement"
-  url = "/implement/"
+  name = "posts"
+  url = "/posts/"
   identifier = "fa fa-newspaper-o"
   weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "categories"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
 
 [[menu.main]]
-  name = "Contact"
+  name = "contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
   weight = 6
