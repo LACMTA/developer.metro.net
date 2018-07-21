@@ -7,11 +7,10 @@ featured = "pic01.jpg"
 featuredalt = "Pic 1"
 featuredpath = "img/posts"
 linktitle = ""
-title = "Getting Started with Hugo"
+title = "Getting Started with Hugo!"
 type = "post"
 
 +++
-
 ## Step 1. Install Hugo
 
 Go to [hugo releases](https://github.com/spf13/hugo/releases) and download the
