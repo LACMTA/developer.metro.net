@@ -3,6 +3,7 @@ author = "Hugo author"
 categories = ["Hugo"]
 date = "2014-04-02"
 description = ""
+draft = true
 featured = "pic01.jpg"
 featuredalt = "Pic 1"
 featuredpath = "img/posts"
@@ -11,7 +12,7 @@ title = "Getting Started with Hugo!"
 type = "post"
 
 +++
-## Step 1. Install Hugo
+## Step 1. Install Hugo!
 
 Go to [hugo releases](https://github.com/spf13/hugo/releases) and download the
 appropriate version for your os and architecture.
@@ -28,10 +29,10 @@ you are reading right now.
 
 Follow the following steps:
 
- 1. Clone the [hugo repository](http://github.com/spf13/hugo)
- 2. Go into the repo
- 3. Run hugo in server mode and build the docs
- 4. Open your browser to http://localhost:1313
+1. Clone the [hugo repository](http://github.com/spf13/hugo)
+2. Go into the repo
+3. Run hugo in server mode and build the docs
+4. Open your browser to http://localhost:1313
 
 Corresponding pseudo commands:
 
@@ -60,9 +61,8 @@ Now we are going to run hugo again, but this time with hugo in watch mode.
     > Watching for changes in /Users/spf13/Code/hugo/docs/content
     > Press ctrl+c to stop
 
-
 Open your [favorite editor](http://vim.spf13.com) and change one of the source
-content pages. How about changing this very file to *fix the typo*. How about changing this very file to *fix the typo*.
+content pages. How about changing this very file to _fix the typo_. How about changing this very file to _fix the typo_.
 
 Content files are found in `docs/content/`. Unless otherwise specified, files
 are located at the same relative location as the url, in our case
@@ -71,7 +71,7 @@ are located at the same relative location as the url, in our case
 Change and save this file.. Notice what happened in your terminal.
 
     > Change detected, rebuilding site
-
+    
     > 29 pages created
     > 0 tags index created
     > in 26 ms
