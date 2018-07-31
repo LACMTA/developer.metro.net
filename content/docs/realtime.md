@@ -1,5 +1,4 @@
 +++
-type = "doc"
 author = "Douglas Goodwin"
 categories = ["real-time"]
 date = "2017-06-22"
@@ -11,6 +10,7 @@ format = "Many"
 link = "#"
 linktitle = ""
 title = "Real-time Arrivals"
+type = "doc"
 
 +++
 ## Metro Nextrip API
@@ -31,5 +31,7 @@ You may now easily build and deploy custom applications using Metro’s data as 
 This new section of the site is here to document the interface and give you some examples of how you might use it. We need more examples! Please help us help you by including your code snippets in the comments area.
 
 Try it out and let us know what you think. We hope you enjoy it!
+
+Thanks,
 
 _-Metro Developer_
